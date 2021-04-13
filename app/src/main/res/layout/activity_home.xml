@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.kea.Home"
+    android:background="@drawable/home">
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="125dp"
+        android:id="@+id/Numbers"
+        android:layout_gravity="right|top"
+        android:background="@drawable/numbers"/>
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="125dp"
+        android:id="@+id/Shapes"
+        android:layout_gravity="center"
+        android:background="@drawable/shapes"/>
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="125dp"
+        android:id="@+id/Colours"
+        android:layout_gravity="right|center_vertical"
+        android:background="@drawable/colours"/>
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="125dp"
+        android:id="@+id/Weekdays"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="@drawable/weekdays"/>
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="125dp"
+        android:id="@+id/Months"
+        android:layout_gravity="right|bottom"
+        android:background="@drawable/months"/>
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="125dp"
+        android:id="@+id/Alphabets"
+        android:background="@drawable/alphabet"
+        android:layout_gravity="center_horizontal|top" />
+
+
+</FrameLayout>
